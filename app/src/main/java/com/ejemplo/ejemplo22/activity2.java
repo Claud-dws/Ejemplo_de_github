@@ -24,6 +24,5 @@ public class activity2 extends AppCompatActivity {
 
         txtName.setText("Nombre: "+getIntent ().getStringExtra ("name"));
         txtPass.setText("contraseña: "+getIntent ().getStringExtra ("pass"));
-        //Toast.makeText (getApplicationContext (),"Hola "+getIntent ().getStringExtra ("pass"),Toast.LENGTH_LONG).show ();
     }
 }
