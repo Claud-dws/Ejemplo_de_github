@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 {
     private Button iniciar;
     private EditText txtName,txtPass;
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -28,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         txtName = (EditText)findViewById (R.id.txtName);
         this.txtPass = (EditText)findViewById (R.id.TxtPass);
     }
-
     @Override
     public void onClick(View v)
     {
